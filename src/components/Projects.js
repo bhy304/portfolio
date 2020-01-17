@@ -42,7 +42,7 @@ class Projects extends Component {
             <section id="projects" className="projects-section bg-light">
                 <div className="container">
                     {projects.map(project => (
-                        <Fragment>
+                        <Fragment key={project.id}>
                             <h1 className="text-black mb-4 text-center">{project.name}</h1>
                             <p className="text-black mb-4 text-center">{project.summary}</p>
 
