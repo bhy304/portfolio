@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.61da004e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f8803929.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f8803929.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.f68edf73.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f68edf73.js.map",
+    "static/js/2.04f683b1.chunk.js": "/react-portfolio/static/js/2.04f683b1.chunk.js",
+    "static/js/2.04f683b1.chunk.js.map": "/react-portfolio/static/js/2.04f683b1.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.b42040583bece6ad0db9fe97631e8acc.js": "/react-portfolio/precache-manifest.b42040583bece6ad0db9fe97631e8acc.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.61da004e.chunk.css.map": "/react-portfolio/static/css/main.61da004e.chunk.css.map",
+    "static/js/2.04f683b1.chunk.js.LICENSE": "/react-portfolio/static/js/2.04f683b1.chunk.js.LICENSE",
+    "static/media/all.min.css": "/react-portfolio/static/media/fa-solid-900.d6d8d5da.woff2",
+    "static/media/maratron.png": "/react-portfolio/static/media/maratron.60c9f0cb.png",
+    "static/media/onion.png": "/react-portfolio/static/media/onion.45cedcaa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f68edf73.js",
+    "static/js/2.04f683b1.chunk.js",
+    "static/css/main.61da004e.chunk.css",
+    "static/js/main.f8803929.chunk.js"
+  ]
+}
