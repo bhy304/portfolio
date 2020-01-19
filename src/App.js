@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 class App extends React.Component {
+
   render() {
     return (
       <div className="App">

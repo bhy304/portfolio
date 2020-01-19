@@ -4,7 +4,7 @@ class Contact extends React.Component {
     render() {
         return(
             <section id="contact" className="contact-section bg-black text-center">
-                <h1 className="text-white mb-4">Contact</h1>
+                <h1 className="contact-title mb-4r">Contact</h1>
                 
                 <div className="container">
 
@@ -16,8 +16,8 @@ class Contact extends React.Component {
                                     <i className="fa fa-envelope text-primary mb-2"></i>
                                     <h4 className="text-uppercase m-0">Email</h4>
                                     <hr className="my-4" />
-                                    <div className="small text-black-50">
-                                        <a href="bhy0512@gmail.com">bhy0512@gmail.com</a>
+                                    <div className="small customColor">
+                                        <a href="bhy0512@gmail.com" target="_blank" rel="noopener noreferrer">bhy0512@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -29,8 +29,8 @@ class Contact extends React.Component {
                                     <i className="fab fa-github text-primary mb-2"></i>
                                     <h4 className="text-uppercase m-0">GitHub</h4>
                                     <hr className="my-4" />
-                                    <div className="small text-black-50">
-                                        <a href="https://github.com/bhy304">https://github.com/bhy304</a>
+                                    <div className="small customColor">
+                                        <a href="https://github.com/bhy304" target="_blank" rel="noopener noreferrer">https://github.com/bhy304</a>
                                     </div>
                                 </div>
                             </div>
@@ -42,8 +42,8 @@ class Contact extends React.Component {
                                     <i className="fa fa-home text-primary mb-2"></i>
                                     <h4 className="text-uppercase m-0">Blog</h4>
                                     <hr className="my-4" />
-                                    <div className="small text-black-50">
-                                        <a href="https://bhy304.github.io/">https://bhy304.github.io/</a>
+                                    <div className="small customColor">
+                                        <a href="https://bhy304.github.io/" target="_blank" rel="noopener noreferrer">https://bhy304.github.io/</a>
                                     </div>
                                 </div>
                             </div>

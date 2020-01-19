@@ -3,12 +3,12 @@ import React from 'react';
 class Footer extends React.Component {
     render() {
         return (
-            <footer className="bg-black small text-center text-white-50">
+            <footer className="bg-black small text-center customColor">
                 <div className="container">
-                Copyright &copy; Your Website 2019
+                Copyright &copy; Your Website 2020
                 </div>
             </footer>
-        )
+        );
     }
 }
 
