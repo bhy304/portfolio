@@ -10,7 +10,6 @@ import onion from '../assets/img/onion.png';
 import maratron from '../assets/img/maratron.png';
 
 const Wrapper = styled.section`
-    width: 100%;
     background-color: #fff;
 `;
 
@@ -41,51 +40,31 @@ const ProjectDescription = styled.div`
     }
 `;
 
-const ProjectTitle = styled.h2`
-    font-size: 1.75rem;
+const ProjectTitle = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+
+    h2 {
+        font-size: 1.75rem;
+        line-height: 1.3333333333;
+    }
+
+    strong {
+        height: 20px;
+        padding: 0 5px 0 4px;
+        border-radius: 4px;
+        margin: 8px 0 0 8px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #fff;
+        background-color: #ff4949;
+    }
 `;
 
 const ProjectImage = styled.img`
     width: 100%;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: -4px 3px 4px 0 rgba(0,0,0,0.25), 0 3px 4px 0 rgba(0,0,0,0.25);
     border-radius: 4px;
-`;
-
-// const TeamProjectWrapper = styled.div`
-//     display: flex;
-//     justify-content: space-between;
-//     margin-top: 20px;
-// `;
-
-// const TeamProjects = styled.div`
-//     width: 100%;
-//     margin: 20px 5px;
-//     background-color: #fff;
-
-//     h2  {
-//         font-size: 1.25rem;
-//     }
-//     p {
-//         font-size: 14px;
-//     }
-
-//     img {
-//         height: 250px;
-//     }
-
-//     a {
-//         padding-left: 5px;
-//     }
-// `;
-
-const Tag = styled.span`
-    background-color: #ff4949;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 400;
-    padding: 3px;
-    text-align: center;
 `;
 
 const Project = () => {
@@ -95,13 +74,15 @@ const Project = () => {
                 <Title>Projects</Title>
                 
                 <ProjectDescription>
-                    <div>
-                        <ProjectTitle>BlackHeart</ProjectTitle>
-                        <Tag>MyWork</Tag>
-                    </div>
+                    <ProjectTitle>
+                        <h2>Blackheart</h2>
+                        <strong>My Work</strong>
+                    </ProjectTitle>
                     
-                    <p>E-commerce application</p>
-                    
+                    <p>2020.01 ~ NOW</p>
+                    <p>BlackHeart E-commerce Web</p>
+                    <ProjectImage src={onion} />
+
                     <div>
                         <FontAwesomeIcon icon={faGithub} />
                         <a href="https://github.com/bhy304" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -112,15 +93,21 @@ const Project = () => {
                         <a href="https://github.com/bhy304" target="_blank" rel="noopener noreferrer">Demo</a>
                     </div>
 
-                    <ProjectImage src={onion} />
-                    <p>2020.01 ~ NOW</p>
                     <p>전체 레이아웃 디자인</p>
                     <p>firebase를 사용한 소셜로그인</p>
+                    <p>1인 개발</p>
                 </ProjectDescription>
 
                 <ProjectDescription>
-                    <ProjectTitle>MARATRON: 책을 듣다 <Tag>TeamProject</Tag></ProjectTitle>
+                    <ProjectTitle>
+                        <h2>MARATRON: 책을 듣다</h2>
+                        <strong>TeamProject</strong>
+                    </ProjectTitle>
+
+                    <p>2019.03 ~ 2019.06</p>
                     <p>TTS를 기반으로 목소리를 분석해 학습된 목소리로 글을 읽어주는 웹 서비스</p>
+                    
+                    <ProjectImage src={maratron} />
                     
                     <div>
                         <FontAwesomeIcon icon={faGithub} />
@@ -131,16 +118,19 @@ const Project = () => {
                         <a href="https://github.com/bhy304" target="_blank" rel="noopener noreferrer">Documentation</a>
                     </div>
                     
-                    <ProjectImage src={maratron} />
-                    <p>2019.03 ~ 2019.06</p>
                     <p>전체 레이아웃 디자인</p>
                     <p>firebase를 사용한 소셜로그인</p>
                 </ProjectDescription>
 
                 <ProjectDescription>
-                    <ProjectTitle>기상 분석에 따른 양파 생산량 분석과 예측 <Tag>TeamProject</Tag></ProjectTitle>
+                    <ProjectTitle>
+                        <h2>기상 분석에 따른 양파 생산량 분석과 예측</h2>
+                        <strong>TeamProject</strong>
+                    </ProjectTitle>
+                    <p>2018.12.10 ~ 2018.12.21</p>
                     <p>양파 생산량 분석 웹 서비스</p>
-                    
+                    <ProjectImage src={onion} />
+
                     <div>
                         <FontAwesomeIcon icon={faGithub} />
                         <a href="https://github.com/bhy304" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -150,38 +140,11 @@ const Project = () => {
                         <a href="https://github.com/bhy304" target="_blank" rel="noopener noreferrer">Documentation</a>
                     </div>
             
-                    <ProjectImage src={onion} />
-                    <p>2018.12.10 ~ 2018.12.21</p>
+                    
                     <p>전체 레이아웃 디자인</p>
                     <p>firebase를 사용한 소셜로그인</p>
                 </ProjectDescription>
 
-                {/* <TeamProjectWrapper>
-                    <TeamProjects>
-                        <ProjectTitle>MARATRON: 책을 듣다 <Tag>TeamProject</Tag></ProjectTitle>
-                        <p>TTS를 기반으로 목소리를 분석해 학습된 목소리로 글을 읽어주는 웹 서비스</p>
-
-                        <div>
-                            <FontAwesomeIcon icon={faGithub} />
-                            <a href="https://github.com/bhy304" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        </div>
-
-                        <ProjectImage src={maratron} />
-                        <p>2019.03 ~ 2019.06</p>
-                    </TeamProjects>
-
-                    <TeamProjects>
-                        <ProjectTitle>기상 분석에 따른 양파 생산량 분석과 예측 <Tag>TeamProject</Tag></ProjectTitle>
-                        <p>양파 생산량 분석 웹 서비스</p>
-                        <div>
-                            <FontAwesomeIcon icon={faGithub} />
-                            <a href="https://github.com/bhy304" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        </div>
-                        <ProjectImage src={onion} />
-                        <p>2018.12.10 ~ 2018.12.21</p>
-
-                    </TeamProjects>
-                </TeamProjectWrapper> */}
             </ProjectsWrapper>
         </Wrapper>
     );

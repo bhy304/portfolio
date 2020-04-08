@@ -9,7 +9,6 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 
 const Wrapper = styled.section`
-    width: 100%;
     background-color: #fff;
     margin-bottom: 80px;
 `;
@@ -47,7 +46,7 @@ const Profile = styled.div`
 
     p {
         font-size: 1.25rem;
-        font-weight: 300;
+        font-weight: 400;
         margin: 10px 0 0 3px;
     }
 
