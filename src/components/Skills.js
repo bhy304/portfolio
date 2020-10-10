@@ -22,7 +22,39 @@ const Title = styled.h1`
 
 const SkillsList = styled.div`
     display: flex;
+    width: 100%;
+    /* flex-direction: column;
+    justify-content: center;
+    align-content: center; */
+`;
+
+const SkillItem = styled.div`
+    width: 350px;
+    display: flex;
     flex-direction: column;
+
+    dl {
+        display: flex;
+        flex-direction: column;
+    }
+
+    dl div {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        padding: 6px 0;
+    }
+
+    dl div dt img {
+        width: 30px;
+        height: 30px;
+        margin-right: 7px;
+    }
+
+    dl div dd {
+        align-items: center;
+        font-size: 1.25rem;
+    }
 `;
 
 const Skills = () => {
@@ -32,27 +64,102 @@ const Skills = () => {
                 <Title>Skills</Title>
 
                 <SkillsList>
-                    <h1>Language</h1>
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>Java</li>
-                    </ul>
+                    {/* Programming Languages */}
+                    <SkillItem>
+                        <h1>Languages</h1>
+                        <dl>       
+                            <div>
+                                <dt><img src={require('../../src/assets/java.svg')} alt="Java"/></dt>
+                                <dd>Java</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('../../src/assets/python.svg')} alt="Python"/></dt>
+                                <dd>Python</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('../../src/assets/javascript.svg')} alt="JavaScript"/></dt>
+                                <dd>JavaScript</dd>
+                            </div>                 
+                            <div>
+                                <dt><img src={require('../../src/assets/react.svg')} alt="JavaScript"/></dt>
+                                <dd>React.js</dd>
+                            </div> 
+                            <div>
+                                <dt><img src={require('../../src/assets/react-router.svg')} alt="JavaScript"/></dt>
+                                <dd>React-router</dd>
+                            </div> 
+                            <div>
+                                <dt><img src={require('../../src/assets/styled-components.png')} alt="Python"/></dt>
+                                <dd>Styled-Components</dd>
+                            </div>
+                        </dl>
+                    </SkillItem>
+                    
+                    <SkillItem>
+                        <h1>Tried</h1>
+                        <dl>
+                            <div>
+                                <dt><img src={require('../../src/assets/redux.svg')} alt="JavaScript"/></dt>
+                                <dd>Redux</dd>
+                            </div> 
+                            
+                            <div>
+                                <dt><img src={require('../../src/assets/django.svg')} alt="JavaScript"/></dt>
+                                <dd>Django</dd>
+                            </div>                 
+                            <div>
+                                <dt><img src={require('../../src/assets/vue.svg')} alt="Java"/></dt>
+                                <dd>Vue.js</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('../../src/assets/sass.svg')} alt="Python"/></dt>
+                                <dd>Sass</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('../../src/assets/docker-icon.svg')} alt="Python"/></dt>
+                                <dd>Docker</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('../../src/assets/aws.svg')} alt="Python"/></dt>
+                                <dd>AWS</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('../../src/assets/firebase.svg')} alt="Python"/></dt>
+                                <dd>Firebase</dd>
+                            </div>
+                        </dl>
+                    </SkillItem>
+                    
+                    <SkillItem>
+                        <h1>Etc.</h1>
+                        <dl>       
+                            <div>
+                                <dt><img src={require('../../src/assets/mysql.svg')} alt="JavaScript"/></dt>
+                                <dd>MongoDB</dd>
+                            </div>                 
+                            <div>
+                                <dt><img src={require('../../src/assets/mysql.svg')} alt="JavaScript"/></dt>
+                                <dd>MySQL</dd>
+                            </div>                 
+                            <div>
+                                <dt><img src={require('../../src/assets/oracle.svg')} alt="Java"/></dt>
+                                <dd>OracleDB</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('../../src/assets/tomcat.svg')} alt="Python"/></dt>
+                                <dd>Apache Tomcat</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('../../src/assets/sourcetree.svg')} alt="Python"/></dt>
+                                <dd>SourceTree</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('../../src/assets/bootstrap.svg')} alt="Python"/></dt>
+                                <dd>BootStrap</dd>
+                            </div>
+                        </dl>
+                    </SkillItem>
 
-                    <h1>Tried</h1>
-                    <ul>
-                        <li>Vue.js</li>
-                        <li>Sass</li>
-                        <li>Styled-Components</li>
-                        <li>Java</li>
-                    </ul>
-
-                    <h1>Etc.</h1>
-                    <ul>
-                        <li>MySQL</li>
-                        <li>OracleDB</li>
-                        <li>Java</li>
-                    </ul>
                 </SkillsList>
 
             </ProjectWrapper>

@@ -6,7 +6,7 @@ const Wrapper = styled.footer`
 `;
 
 const FooterWrapper = styled.div`
-    dispaly: flex;
+    display: flex;
     flex-direction: column;
     width: 1000px;
     margin: 0 auto;
@@ -25,7 +25,7 @@ const Footer = () => {
         <Wrapper>
             <FooterWrapper>
                 <Text>
-                    &copy; HayeonBaek 2020
+                    &copy; HayeonBaek {new Date().getFullYear()}
                  </Text>
             </FooterWrapper>
         </Wrapper>

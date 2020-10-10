@@ -32,6 +32,10 @@ const Title = styled.h1`
     text-align: center;
     color: #fff;
     z-index: 10;
+
+    @media only screen and (max-width: 500px) {
+        font-size: 2rem;
+    }
 `;
 
 const Text = styled.span`
@@ -43,7 +47,7 @@ const Intro = () => {
     return (
         <Wrapper>
             <IntroWrapper>
-                <Title>Hello, I'm <Text id="txt-type" data-wait="3000" data-words='["Hayeon","Developer"]'></Text>!</Title>
+                <Title>Hello, I'm <Text id="txt-type" data-wait="3000" data-words='["Hayeon","Web","Developer"]'></Text>!</Title>
             </IntroWrapper>
         </Wrapper>
     );

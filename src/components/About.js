@@ -7,7 +7,6 @@ import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-
 const Wrapper = styled.section`
     background-color: #fff;
     margin-bottom: 80px;
@@ -162,10 +161,29 @@ const About = () => {
                         </div>
                         
                         <div>
-                            <p>안녕하세요. 저는 백하연입니다!</p>
-                            <p>저는 무언가 만드는 것을 좋아하고 눈에 보이는 결과물을 보며 성취감을 느낍니다.</p>
-                            <p>구현한 결과물을 사용자가 그대로 경험하고 피드백 받을 수 있는 프론트엔드 직무는 저에게 매우 큰 매력으로 다가왔습니다.</p>
-                            <p>빠르게 발전하는 기술 환경 속에서 '어제보다 더 발전한 개발자'를 목표로 함께 성장해가고 싶습니다.</p>
+                            안녕하세요! 웹 프론트엔드 개발자 백하연입니다.
+                            <br />
+                            <br />
+                            {/* 개발하게 된 이유 */}
+                            스스로 무언가를 만들며 눈에 보이는 결과물을 얻을 때 가장 성취감을 느껴 개발을 하게 되었습니다.
+                            <br />
+                            <br />
+                            {/* 1인 개발 역량, 자기 개발 */}
+                            1인 개발 프로젝트를 통해 기획부터 개발까지 혼자 진행해보며, 백엔드와 디자인 직군의 역할의 이해도를 키웠습니다. 
+                            <br />
+                            <br />
+                            자바스크립트를 사용해 <strong><a href="https://bhy304.github.io/JavaScript30/">토이프로젝트</a></strong>
+                            도 끊임없이 개발해보며 개발 역량을 쌓고 있습니다. 
+                            <br />
+                            {/* 주로 자바스크립트를 사용하며, 리액트 프레임워크를 사용해 개발하고 있습니다.  */}
+                            <br />
+                            {/* 팀 프로젝트를 통해서 얻은 경험 */}
+                            팀 프로젝트를 진행하며 팀원과의 소통의 중요성을 알게 되었고, 슬랙, Trello, Discord 등의 협업 툴 활용능력도 쌓으며 다양한 프로젝트에 적용했습니다. 
+                            또 Git, SourceTree를 활용해 프로젝트 버전을 관리하고 문서화 작업을 통해 협업 능력도 쌓을 수 있었습니다. 
+                            <br />
+                            <br />
+                            {/* 최근 관심사 */}
+                            React.js 프레임워크를 활용한 개발과 GitHub을 통한 협업 및 프로젝트 관리, 자동화에 관심이 많습니다. 
                         </div>
 
                     </Flex>
