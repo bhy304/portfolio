@@ -47,7 +47,7 @@ const Intro = () => {
     return (
         <Wrapper>
             <IntroWrapper>
-                <Title>Hello, I'm <Text id="txt-type" data-wait="3000" data-words='["Hayeon","Web","Developer"]'></Text>!</Title>
+                <Title>Hello, I'm <Text id="txt-type" data-wait="3000" data-words='["Hayeon", "Developer"]'></Text>!</Title>
             </IntroWrapper>
         </Wrapper>
     );
