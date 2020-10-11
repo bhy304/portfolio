@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.c64d4b7d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c64d4b7d.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.17ed1c47.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.17ed1c47.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e44c21d0.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e44c21d0.js.map",
-    "static/js/2.b1e96ad4.chunk.js": "/react-portfolio/static/js/2.b1e96ad4.chunk.js",
-    "static/js/2.b1e96ad4.chunk.js.map": "/react-portfolio/static/js/2.b1e96ad4.chunk.js.map",
+    "static/js/2.6e86e752.chunk.js": "/react-portfolio/static/js/2.6e86e752.chunk.js",
+    "static/js/2.6e86e752.chunk.js.map": "/react-portfolio/static/js/2.6e86e752.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.4faf6b16eb6d759947ea7dfefedb16ef.js": "/react-portfolio/precache-manifest.4faf6b16eb6d759947ea7dfefedb16ef.js",
+    "precache-manifest.fca43a2b2e2e1686ebdbf44f0d9110a9.js": "/react-portfolio/precache-manifest.fca43a2b2e2e1686ebdbf44f0d9110a9.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/js/2.b1e96ad4.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b1e96ad4.chunk.js.LICENSE.txt",
+    "static/js/2.6e86e752.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6e86e752.chunk.js.LICENSE.txt",
     "static/media/aws.svg": "/react-portfolio/static/media/aws.5594e8bc.svg",
     "static/media/blackheart.png": "/react-portfolio/static/media/blackheart.6cb36220.png",
-    "static/media/bootstrap.svg": "/react-portfolio/static/media/bootstrap.71e42b5a.svg",
     "static/media/django.svg": "/react-portfolio/static/media/django.28fe09a0.svg",
     "static/media/docker-icon.svg": "/react-portfolio/static/media/docker-icon.589dd398.svg",
     "static/media/firebase.svg": "/react-portfolio/static/media/firebase.bfa69c4f.svg",
     "static/media/java.svg": "/react-portfolio/static/media/java.a732a6e5.svg",
     "static/media/javascript.svg": "/react-portfolio/static/media/javascript.87711407.svg",
+    "static/media/koa.svg": "/react-portfolio/static/media/koa.0a02fec6.svg",
     "static/media/maratron.png": "/react-portfolio/static/media/maratron.60c9f0cb.png",
+    "static/media/mongodb.svg": "/react-portfolio/static/media/mongodb.2aa7f7b5.svg",
     "static/media/mysql.svg": "/react-portfolio/static/media/mysql.dd2a5a35.svg",
     "static/media/onion.png": "/react-portfolio/static/media/onion.45cedcaa.png",
     "static/media/oracle.svg": "/react-portfolio/static/media/oracle.7c876d3b.svg",
@@ -34,7 +35,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e44c21d0.js",
-    "static/js/2.b1e96ad4.chunk.js",
-    "static/js/main.c64d4b7d.chunk.js"
+    "static/js/2.6e86e752.chunk.js",
+    "static/js/main.17ed1c47.chunk.js"
   ]
 }

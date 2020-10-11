@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91541b8e5ae54e0cf47756e6c4ae8e1e",
+    "revision": "66aab2171e71a88bf15dbd510369966b",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "6ed997bcd80d7fdc2d72",
-    "url": "/react-portfolio/static/js/2.b1e96ad4.chunk.js"
+    "revision": "ea591d771ec72e14bab8",
+    "url": "/react-portfolio/static/js/2.6e86e752.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/react-portfolio/static/js/2.b1e96ad4.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.6e86e752.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4792c56d6f6c8d1fb9d8",
-    "url": "/react-portfolio/static/js/main.c64d4b7d.chunk.js"
+    "revision": "0de79db756d5d55f46a5",
+    "url": "/react-portfolio/static/js/main.17ed1c47.chunk.js"
   },
   {
     "revision": "26950ce1f34a1b315732",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6cb36220479549a9f25d8fa369efb119",
     "url": "/react-portfolio/static/media/blackheart.6cb36220.png"
-  },
-  {
-    "revision": "71e42b5a8d6c0d6628ec8840cc4030e9",
-    "url": "/react-portfolio/static/media/bootstrap.71e42b5a.svg"
   },
   {
     "revision": "28fe09a047913afe9ea13c7958c182c0",
@@ -52,8 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/javascript.87711407.svg"
   },
   {
+    "revision": "0a02fec67b2acdb6ae0f1525955e8cdd",
+    "url": "/react-portfolio/static/media/koa.0a02fec6.svg"
+  },
+  {
     "revision": "60c9f0cb33a5eaae54a5171fe0568ca8",
     "url": "/react-portfolio/static/media/maratron.60c9f0cb.png"
+  },
+  {
+    "revision": "2aa7f7b569fd6e9176f49dd31eaa970e",
+    "url": "/react-portfolio/static/media/mongodb.2aa7f7b5.svg"
   },
   {
     "revision": "dd2a5a358ea682bed45bf98bc842b3ed",
