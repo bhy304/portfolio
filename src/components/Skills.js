@@ -27,10 +27,10 @@ const SkillsList = styled.div`
 `;
 
 const SkillItem = styled.div`
-    width: 350px;
+    width: 500px;
     display: flex;
     flex-direction: column;
-    margin-right: 10px;
+    margin-right: 1.125rem;
 
     dl {
         display: flex;
@@ -70,82 +70,81 @@ const Skills = () => {
                         <h1>Familliar</h1>
                         <dl>                       
                             <div>
-                                <dt><img src={require('../../src/assets/react.svg')} alt="React.js"/></dt>
+                                <dt><img src={require('assets/img/react.svg')} alt="React.js"/></dt>
                                 <dd>React.js</dd>
                             </div> 
                             <div>
-                                <dt><img src={require('../../src/assets/react-router.svg')} alt="React-router"/></dt>
+                                <dt><img src={require('assets/img/react-router.svg')} alt="React-router"/></dt>
                                 <dd>React-router</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/redux.svg')} alt="Redux"/></dt>
-                                <dd>Redux</dd>
-                            </div>
-                            <div>
-                                <dt><img src={require('../../src/assets/hooks.png')} alt="ReactHooks"/></dt>
+                                <dt><img src={require('assets/img/hooks.jpg')} alt="ReactHooks"/></dt>
                                 <dd>React Hooks</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/koa.svg')} alt="Koa"/></dt>
-                                <dd>Koa.js</dd>
+                                <dt><img src={require('assets/img/redux.svg')} alt="Redux"/></dt>
+                                <dd>Redux</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/mongodb.svg')} alt="MongoDB"/></dt>
-                                <dd>MongoDB</dd>
+                                <dt><img src={require('assets/img/mysql.svg')} alt="MySQL"/></dt>
+                                <dd>MySQL</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/styled-components.png')} alt="Python"/></dt>
+                                <dt><img src={require('assets/img/styled-components.png')} alt="Python"/></dt>
                                 <dd>Styled-Components</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('assets/img/sourcetree.svg')} alt="Python"/></dt>
+                                <dd>SourceTree</dd>
                             </div>
                         </dl>
                     </SkillItem>
 
                     {/* Programming Languages */}
-                    
-
                     <SkillItem>
                         <h1>Tried</h1>
                         <dl>
                             <div>
-                                <dt><img src={require('../../src/assets/vue.svg')} alt="Vue.js"/></dt>
+                                <dt><img src={require('assets/img/koa.svg')} alt="Koa"/></dt>
+                                <dd>Koa.js</dd>
+                            </div>
+                            <div>
+                                <dt><img src={require('assets/img/vue.svg')} alt="Vue.js"/></dt>
                                 <dd>Vue.js</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/django.svg')} alt="Django"/></dt>
+                                <dt><img src={require('assets/img/django.svg')} alt="Django"/></dt>
                                 <dd>Django</dd>
                             </div>                 
                             <div>
-                                <dt><img src={require('../../src/assets/sass.svg')} alt="Sass"/></dt>
+                                <dt><img src={require('assets/img/sass.svg')} alt="Sass"/></dt>
                                 <dd>Sass</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/docker-icon.svg')} alt="Docker"/></dt>
+                                <dt><img src={require('assets/img/docker-icon.svg')} alt="Docker"/></dt>
                                 <dd>Docker</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/aws.svg')} alt="AWS"/></dt>
+                                <dt><img src={require('assets/img/aws.svg')} alt="AWS"/></dt>
                                 <dd>AWS</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/firebase.svg')} alt="Firebase"/></dt>
+                                <dt><img src={require('assets/img/firebase.svg')} alt="Firebase"/></dt>
                                 <dd>Firebase</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/mysql.svg')} alt="MySQL"/></dt>
-                                <dd>MySQL</dd>
-                            </div>                 
+                                <dt><img src={require('assets/img/mongodb.svg')} alt="MongoDB"/></dt>
+                                <dd>MongoDB</dd>
+                            </div>    
                             <div>
-                                <dt><img src={require('../../src/assets/oracle.svg')} alt="OracleDB"/></dt>
+                                <dt><img src={require('assets/img/oracle.svg')} alt="OracleDB"/></dt>
                                 <dd>Oracle DB</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/tomcat.svg')} alt="ApacheTomcat"/></dt>
+                                <dt><img src={require('assets/img/tomcat.svg')} alt="ApacheTomcat"/></dt>
                                 <dd>Apache Tomcat</dd>
                             </div>
-                            <div>
-                                <dt><img src={require('../../src/assets/sourcetree.svg')} alt="Python"/></dt>
-                                <dd>SourceTree</dd>
-                            </div>
+                            
                         </dl>
                     </SkillItem>
 
@@ -153,15 +152,15 @@ const Skills = () => {
                         <h1>Languages</h1>
                         <dl>       
                             <div>
-                                <dt><img src={require('../../src/assets/javascript.svg')} alt="JavaScript"/></dt>
+                                <dt><img src={require('assets/img/javascript.svg')} alt="JavaScript"/></dt>
                                 <dd>JavaScript</dd>
                             </div>                 
                             <div>
-                                <dt><img src={require('../../src/assets/java.svg')} alt="Java"/></dt>
+                                <dt><img src={require('assets/img/java.svg')} alt="Java"/></dt>
                                 <dd>Java</dd>
                             </div>
                             <div>
-                                <dt><img src={require('../../src/assets/python.svg')} alt="Python"/></dt>
+                                <dt><img src={require('assets/img/python.svg')} alt="Python"/></dt>
                                 <dd>Python</dd>
                             </div>
                         </dl>
