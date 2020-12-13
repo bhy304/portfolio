@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.17ed1c47.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.17ed1c47.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.048b36c3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.048b36c3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.80e88482.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.80e88482.js.map",
-    "static/js/2.09239d8b.chunk.js": "/portfolio/static/js/2.09239d8b.chunk.js",
-    "static/js/2.09239d8b.chunk.js.map": "/portfolio/static/js/2.09239d8b.chunk.js.map",
+    "static/js/2.1e63444e.chunk.js": "/portfolio/static/js/2.1e63444e.chunk.js",
+    "static/js/2.1e63444e.chunk.js.map": "/portfolio/static/js/2.1e63444e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e84fecddacdcf2ba119dcd7d9e275fea.js": "/portfolio/precache-manifest.e84fecddacdcf2ba119dcd7d9e275fea.js",
+    "precache-manifest.44ac344e11c8d3bd46ae4fcc7f04613b.js": "/portfolio/precache-manifest.44ac344e11c8d3bd46ae4fcc7f04613b.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/js/2.09239d8b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.09239d8b.chunk.js.LICENSE.txt",
+    "static/js/2.1e63444e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1e63444e.chunk.js.LICENSE.txt",
+    "static/media/NotoSerifKR-Bold.otf": "/portfolio/static/media/NotoSerifKR-Bold.f38eee13.otf",
+    "static/media/NotoSerifKR-Light.otf": "/portfolio/static/media/NotoSerifKR-Light.d44d545c.otf",
+    "static/media/NotoSerifKR-Medium.otf": "/portfolio/static/media/NotoSerifKR-Medium.fe30896c.otf",
+    "static/media/NotoSerifKR-Regular.otf": "/portfolio/static/media/NotoSerifKR-Regular.22b87ae0.otf",
+    "static/media/PlayfairDisplay-Bold.ttf": "/portfolio/static/media/PlayfairDisplay-Bold.d27b6b12.ttf",
+    "static/media/PlayfairDisplay-Medium.ttf": "/portfolio/static/media/PlayfairDisplay-Medium.c697dace.ttf",
+    "static/media/PlayfairDisplay-Regular.ttf": "/portfolio/static/media/PlayfairDisplay-Regular.b3721ba3.ttf",
+    "static/media/Poppins-Bold.ttf": "/portfolio/static/media/Poppins-Bold.a3e0b5f4.ttf",
+    "static/media/Poppins-Light.ttf": "/portfolio/static/media/Poppins-Light.f6ea751e.ttf",
+    "static/media/Poppins-Medium.ttf": "/portfolio/static/media/Poppins-Medium.f61a4eb2.ttf",
+    "static/media/Poppins-Regular.ttf": "/portfolio/static/media/Poppins-Regular.8b6af8e5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/portfolio/static/media/Poppins-SemiBold.4cdacb8f.ttf",
     "static/media/aws.svg": "/portfolio/static/media/aws.5594e8bc.svg",
     "static/media/blackheart.png": "/portfolio/static/media/blackheart.6cb36220.png",
     "static/media/django.svg": "/portfolio/static/media/django.28fe09a0.svg",
@@ -35,7 +47,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.80e88482.js",
-    "static/js/2.09239d8b.chunk.js",
-    "static/js/main.17ed1c47.chunk.js"
+    "static/js/2.1e63444e.chunk.js",
+    "static/js/main.048b36c3.chunk.js"
   ]
 }
